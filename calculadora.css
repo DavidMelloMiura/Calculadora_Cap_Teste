@@ -11,13 +11,16 @@ main {
     height: 92vh;
 }
 
+
 .form {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 47vw;
+    height: 90vh;
 }
+
 
 .resultados {
     display: flex;
@@ -28,7 +31,9 @@ main {
     width: 49vw;
     font-size: 0.9rem;
     visibility: hidden;
+    height: 90vh;
 }
+
 
 #imagem {
     display: flex;
@@ -37,9 +42,28 @@ main {
     width: 49vw;
 }
 
+/* Animação - Keyframes */
+@keyframes socialmedia {
+    0%       {width: 500px; margin-top: -30px;}
+    50%       {width: 500px; margin-top: 0px;}
+    100%     {width: 500px; margin-top: -30px;}
+}
+
 #imgmobile {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 500px;
+    z-index: -1;
+    
+    /* Animação - Configuração */
+    animation-name: socialmedia;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: -2s;
+    animation-timing-function: ease;
+
+    
 }
 
 input {
