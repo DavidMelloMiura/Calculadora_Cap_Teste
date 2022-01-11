@@ -58,7 +58,7 @@ main {
     justify-content: center;
     align-items: center;
     width: 500px;
-    z-index: -1;
+    z-index: -10;
     
     /* Animação - Configuração */
     animation-name: socialmedia;
@@ -122,6 +122,7 @@ input:hover {
     background-color: #e4cc43;
     border: 1px solid #bba005;
     color: #2e2e2e;
+    margin-top: 2px;
 }
 
 
