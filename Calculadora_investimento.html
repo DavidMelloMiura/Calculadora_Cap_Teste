@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de Investimento</title>
+    <link rel="stylesheet" href="calculadora.css">
+    <script src="calculadora.js"></script>
+
+</head>
+
+<body>
+    
+    <h1>Calculo de Alcance de Campanha de Divulgação</h1>
+    <main>
+        <section class="form">
+            <input type="text" id="inpanuncio" placeholder="Nome Anuncio">
+            <input type="text" id="inpcliente" placeholder="Nome do Cliente">
+            <input type="date" id="inpinicio" placeholder="Data Inicial">
+            <input type="date" id="inpfim" placeholder="Data Final">
+            <input type="text" id="inpvalordia" placeholder="Investimento Diário">
+
+            <button id="calcular" onclick="calcular()">Calcular</button>
+            <button id="btnovo" onclick="atualizar()">Novo</button>
+        </section>
+
+        <section id="imagem">
+            <img id="imgmobile" src="img/mobile-marketing.jpg" alt="">
+
+        </section>
+
+
+
+        <section id="results" class="resultados">
+            <h3>Relatório</h3>
+
+
+
+
+        </hr>
+            <div id="lblanuncio"><b>Anuncio:</b> </div>
+            <div id="lblcliente"><b>Cliente:</b> </div>
+            <div id="lblinicio"><b>Inicio:</b> </div>
+            <div id="lblfim"><b>Fim:</b> </div>
+            <div id="lbldias"><b>Dias:</b> </div>
+            <div id="lblinvestdias"><b>Investimento Diário:</b> </div>
+
+            
+            <h3>Alcance da Campanha</h3>
+            <div id="lbltotal"><b>Valor total do Investimento:</b> </div>
+            <div id="lblvisualizacoes"><b>Visualizações:</b> </div>
+            <div id="lblcliques"><b>Cliques:</b> </div>
+            <div id="lblcompartilhamentos"><b>Compartilhamentos:</b> </div>
+
+            
+            <br>
+            <h3>Campanhas</h3>
+            <!-- <div id="listcampanhas">Lista de Campanhas</div> -->
+
+            <p>JSON</p>
+            <div id="testejson"></div>
+        </section>
+
+    </main>
+</body>
+
+</html>

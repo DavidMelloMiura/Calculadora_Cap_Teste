@@ -1,0 +1,119 @@
+body { margin: 0; padding: 0; font-size: 100%; font-family: Verdana, Geneva, Tahoma, sans-serif; color: #585858;}
+
+h1 { display:flex; justify-content: center; font-size: 1rem; background-color: #1171b1; margin-top: 0px; padding: 0.5rem 0.5rem ; color: whitesmoke;}
+
+h3 {border-left: 7px solid #1171b1; border-right: 5px solid #1171b1; padding: 3px; color: #00263f; background-color: #ececec; border-radius: 5px;}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 92vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 43vw;
+}
+
+.resultados {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 1em;
+    width: 47vw;
+    font-size: 0.9rem;
+    visibility: hidden;
+}
+
+#imagem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 47vw;
+}
+
+#imgmobile {
+    display: flex;
+    width: 500px;
+}
+
+input {
+    width: 20rem;
+    height: 2rem;
+    margin-bottom: 1em;
+    border-radius: 3px;
+    border: 1px solid #b8b8b8;
+    padding: 0.3rem 0.3rem;
+}
+
+input:hover {
+    outline: 1.5px solid #1171b1;
+    background-color: #ddedfa;
+}
+
+#calcular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.9rem;
+    width: 20.8rem;
+    padding: 0.5rem 0.5rem;
+    background-color: #1171b1;
+    border: 1px solid #b1b1b1;
+    border-radius: 3px;
+    color: white;
+}
+
+#calcular:hover{
+    background-color: #3290cf;
+    border: 1px solid #1171b1;
+    color: white;
+}
+
+
+#btnovo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.9rem;
+    width: 5rem;
+    margin-top: 1rem;
+    background-color: #dfc013;
+    border: 1px solid #b1b1b1;
+    border-radius: 3px;
+    color: #2e2e2e;
+}
+
+#btnovo:hover{
+    background-color: #e4cc43;
+    border: 1px solid #bba005;
+    color: #2e2e2e;
+}
+
+
+
+/* RESPONSIVIDADE */
+
+@media  screen and (max-width: 800px) {
+
+    .form {
+        width: 90vw;
+    }
+
+    .resultados {
+        width: 90vw;
+        height: 100vh;
+        margin-left: 10px;
+    }
+    #imagem {
+        width: 90vw;
+        height: 100vh;
+        margin-left: 10px;
+    }
+    
+}
