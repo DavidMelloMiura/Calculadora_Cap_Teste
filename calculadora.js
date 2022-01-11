@@ -71,18 +71,14 @@ function calcular() {
 
     lblcompartilhamentos.innerHTML = `<b>Compartilhamentos:</b> ${compart}`
 
+    
 
     /* Cada compartilhamento gera mais 40 novas visualizações */
-
     let newviews = compart * 40;
     /* teste.innerHTML = `<b>Novas Visualizações: ${newviews}</b>` */
 
     let quantviewtotal = quantview + newviews
     lblvisualizacoes.innerHTML = `<b>Visualizaçõess</b> ${quantviewtotal}`
-
-
-
-
 
 
 
@@ -105,7 +101,6 @@ function calcular() {
    document.getElementById("imagem").innerHTML = res
    
 }
-
 
 
 function atualizar(){
