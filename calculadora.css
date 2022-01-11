@@ -132,18 +132,29 @@ input:hover {
 
     .form {
         width: 100vw;
+        height: 50vh;
         padding-bottom: 1rem;
     }
 
     .resultados {
         width: 100vw;
         height: 100vh;
-        margin-left: 10px;
     }
     #imagem {
         width: 100vw;
-        height: 100vh;
-        padding-left: 15px;
+        height: 50vh;
+        margin-left: 15px;
+        margin-top: 50px;
     }
+
+}
+
+
+@media screen and (max-width: 700px) {
     
+    #imgmobile {
+        width: 1rem;
+        margin-left: -50px;
+    }
+
 }
