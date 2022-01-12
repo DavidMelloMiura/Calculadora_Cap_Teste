@@ -5,12 +5,12 @@ body { margin: 0; padding: 0; font-size: 0.8rem; font-family: 'Poppins', sans-se
 
 h1 { display:flex; justify-content: center; font-size: 1rem; background-color: #1171b1; margin-top: 0px; padding: 0.5rem 0.5rem ; color: whitesmoke;}
 
-h3 {border-left: 7px solid #1171b1; border-right: 5px solid #1171b1; padding: 3px; color: #00263f; background-color: #ececec; border-radius: 5px; width: 90%;}
+h3 {border-left: 7px solid #1171b1; border-right: 5px solid #1171b1; padding: 3px; color: #00263f; background-color: #ececec; border-radius: 5px; width: 20rem;}
 
 main {
     display: flex;
     flex-wrap: wrap;
-    width: 100vw;
+    width: 100%;
     height: 92vh;
 }
 
@@ -21,7 +21,7 @@ main {
     align-items: center;
     justify-content: center;
     width: 45vw;
-    height: auto;
+    height: 100%;
 }
 
 
@@ -30,11 +30,9 @@ main {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    padding-left: 1em;
     width: 49vw;
     font-size: 0.9rem;
     visibility: hidden;
-    height: auto;
 }
 
 
@@ -42,8 +40,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 49vw;
-    height: 100vh;
+    width: 47vw;
 }
 
 /* Animação - Keyframes */
@@ -57,8 +54,9 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 500px;
+    width: 300px;
     z-index: -10;
+    
     
     /* Animação - Configuração */
     animation-name: socialmedia;
@@ -73,8 +71,8 @@ main {
 input {
     width: 20rem;
     height: 2rem;
-    margin-bottom: 1em;
-    margin-top: 1rem;
+    margin-bottom: 0.5em;
+    margin-top: 0.5rem;
     border-radius: 3px;
     border: 1px solid #b8b8b8;
     padding: 0.3rem 0.3rem;
@@ -92,6 +90,7 @@ input:hover {
     align-items: center;
     height: 2.9rem;
     width: 20.8rem;
+    margin-top: 0.5rem;
     padding: 0.5rem 0.5rem;
     background-color: #1171b1;
     border: 1px solid #b1b1b1;
@@ -110,7 +109,7 @@ input:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 2.9rem;
+    height: 3rem;
     width: 8rem;
     margin-top: 1rem;
     background-color: #dfc013;
@@ -123,7 +122,6 @@ input:hover {
     background-color: #e4cc43;
     border: 1px solid #bba005;
     color: #2e2e2e;
-    margin-top: 2px;
 }
 
 
@@ -162,10 +160,6 @@ input:hover {
     #imgmobile {
         width: 50px;
         margin-left: -50px;
-    }
-
-    #btnovo {
-        height: 3rem;
-    }
+    }    
 
 }
