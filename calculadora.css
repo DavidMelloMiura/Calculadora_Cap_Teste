@@ -137,7 +137,7 @@ input:hover {
 
     .form {
         width: 100vw;
-        height: 50vh;
+        /* height: 50vh; */
         padding-bottom: 1rem;
     }
 
