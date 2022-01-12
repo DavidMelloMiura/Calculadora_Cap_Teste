@@ -21,7 +21,7 @@ main {
     align-items: center;
     justify-content: center;
     width: 45vw;
-    height: 100vh;
+    height: auto;
     border: 1px solid red;
 }
 
@@ -35,7 +35,7 @@ main {
     width: 49vw;
     font-size: 0.9rem;
     visibility: hidden;
-    height: 100vh;
+    height: auto;
     border: 1px solid red;
 }
 
@@ -150,6 +150,11 @@ input:hover {
         height: 50vh;
         
         margin-top: 50px;
+    }
+
+    input {
+        height: 3rem;
+
     }
 
 }
