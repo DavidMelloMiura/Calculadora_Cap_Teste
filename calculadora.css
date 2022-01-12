@@ -36,7 +36,6 @@ main {
     font-size: 0.9rem;
     visibility: hidden;
     height: auto;
-    border: 1px solid red;
 }
 
 
@@ -46,7 +45,6 @@ main {
     justify-content: center;
     width: 49vw;
     height: 100vh;
-    border: 1px solid red;
 }
 
 /* Animação - Keyframes */
