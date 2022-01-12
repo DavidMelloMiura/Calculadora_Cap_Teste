@@ -137,16 +137,17 @@ input:hover {
 
     .form {
         width: 100vw;
-        /* height: 50vh; */
+        height: 50vh;
         padding-bottom: 1rem;
     }
 
     .resultados {
         width: 100vw;
-        height: 100vh;
+        height: 50vhvh;
     }
     #imagem {   
         margin-top: 50px;
+        height: 50vh;
     }
 
     #imgmobile {
