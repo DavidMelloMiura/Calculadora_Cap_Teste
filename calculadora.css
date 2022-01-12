@@ -22,7 +22,6 @@ main {
     justify-content: center;
     width: 45vw;
     height: auto;
-    border: 1px solid red;
 }
 
 
@@ -163,6 +162,10 @@ input:hover {
     #imgmobile {
         width: 50px;
         margin-left: -50px;
+    }
+
+    #btnovo {
+        height: 3rem;
     }
 
 }
