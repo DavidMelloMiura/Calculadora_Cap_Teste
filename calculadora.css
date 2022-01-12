@@ -146,12 +146,13 @@ input:hover {
         height: 50vh;
     }
     #imagem {   
+        justify-content: center;
         margin-top: 50px;
         height: 50vh;
     }
 
     #imgmobile {
-        width: 87vw;
+        width: 77vw;
     }
 
 }
