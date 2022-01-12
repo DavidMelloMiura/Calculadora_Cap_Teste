@@ -84,6 +84,9 @@ input {
 input:hover {
     outline: 1.5px solid #1171b1;
     background-color: #ddedfa;
+    height: 2.3rem;
+    margin-bottom: 0.5em;
+    margin-top: 0.5rem;
 }
 
 #calcular {
@@ -148,11 +151,6 @@ input:hover {
 
     #imgmobile {
         width: 87vw;
-    }
-
-    input {
-        height: 3rem;
-
     }
 
 }
