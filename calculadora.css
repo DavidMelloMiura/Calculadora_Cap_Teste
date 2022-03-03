@@ -145,6 +145,10 @@ input:hover {
         background-color: #1171b1;
     }
 
+    input {
+        min-height: 3rem;
+    }
+
     .resultados {
         width: 100vw;
         height: 50vh;
