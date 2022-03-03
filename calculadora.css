@@ -142,13 +142,9 @@ input:hover {
         width: 100vw;
         min-height: 71vh;
         padding-bottom: 1rem;
-        background-color: #1171b1;
     }
 
-    input {
-        min-height: 3rem;
-    }
-
+    
     .resultados {
         width: 100vw;
         height: 50vh;
