@@ -72,7 +72,7 @@ main {
 
 input {
     width: 20rem;
-    height: 2.3rem;
+    height: 3rem;
     margin-bottom: 0.5em;
     margin-top: 0.5rem;
     border-radius: 3px;
@@ -135,12 +135,12 @@ input:hover {
 @media  screen and (max-width: 800px) {
 
     main {
-        max-height: 50vh;
+        max-height: 60vh;
     }
 
     .form {
         width: 100vw;
-        min-height: 50vh;
+        min-height: 65vh;
         padding-bottom: 1rem;
     }
 
@@ -151,7 +151,7 @@ input:hover {
     #imagem {   
         justify-content: center;
         margin-top: 50px;
-        height: 50vh;
+        min-height: 50vh;
     }
 
     #imgmobile {
