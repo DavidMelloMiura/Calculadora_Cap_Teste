@@ -78,7 +78,7 @@ function calcular() {
     /* teste.innerHTML = `<b>Novas Visualizações: ${newviews}</b>` */
 
     let quantviewtotal = quantview + newviews
-    lblvisualizacoes.innerHTML = `<b>Visualizaçõess</b> ${quantviewtotal}`
+    lblvisualizacoes.innerHTML = `<b>Visualizações</b> ${quantviewtotal}`
 
 
 
