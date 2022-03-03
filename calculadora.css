@@ -135,13 +135,14 @@ input:hover {
 @media  screen and (max-width: 800px) {
 
     main {
-        max-height: 60vh;
+        max-height: 50vh;
     }
 
     .form {
         width: 100vw;
-        min-height: 65vh;
+        min-height: 71vh;
         padding-bottom: 1rem;
+        background-color: #1171b1;
     }
 
     .resultados {
