@@ -34,6 +34,7 @@ main {
     height: 100%;
     font-size: 0.9rem;
     visibility: hidden;
+    
 }
 
 
@@ -43,6 +44,7 @@ main {
     justify-content: center;
     width: 47vw;
     padding-left: 2rem;
+    
     /* height: 100vh; */
 }
 
@@ -83,7 +85,6 @@ input {
 input:hover {
     outline: 1.5px solid #1171b1;
     background-color: #ddedfa;
-    height: 2.3rem;
     margin-bottom: 0.5em;
     margin-top: 0.5rem;
 }
